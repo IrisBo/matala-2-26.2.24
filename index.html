@@ -4,15 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+body{
+    background-image: url(https://lh3.googleusercontent.com/Whzrrxd_b_aVK6a4M0OmqPYtRK0-PN4HOpPgVYu1acLTW9FZCS1GxjMuAOCpbFgV6K9xGvBzYw84eoIR4QWild0CvQ=w640-h400-e365-rj-sc0x00ffffff);
+    color: bisque;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: larger;
+background-size: cover;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+ .search-by-country-value{
+    width: 100%;
+    padding: 5px;
+    margin-top: 1px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+ }
+
+}
+
+
+    </style>
 </head>
 <body>
-
+<div class="all-data-container">
+    <div class="input-container">
     <h1>All countries stats</h1>
     <input class="search-by-country-value" placeholder="type country"><button class="country-search-button">Search</button>
   <br>
   <button type="submit" class="country-all-button">Get all</button>
   <button type="submit" class="clear-all-button">Clear all</button>
-    
+</div>
+  
 <div class="div-display-stats"></div>
 <table class="table-display-countries">
     <thead></thead>
@@ -21,6 +52,7 @@
     <table class="table-display-region">
         <thead></thead>
     </table>
+</div>
 </div>
 
 

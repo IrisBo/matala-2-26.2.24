@@ -5,7 +5,7 @@
 // connections
 
 const singleCountry = document.querySelector(".search-by-country-value")
-const SingleCountrySearchButton = document.querySelector(".country-search-button")
+const singleCountrySearchButton = document.querySelector(".country-search-button")
 const dataStatsDisplayArea = document.querySelector(".div-display-stats")
 const tableCountriesDisplay = document.querySelector(".table-display-countries")
 const tableRegionDisplay = document.querySelector(".table-display-region")
@@ -32,7 +32,7 @@ async function getCountryFromSearch(inputvalue) {
 }
 
 
-SingleCountrySearchButton.addEventListener("click", async function () {
+singleCountrySearchButton.addEventListener("click", async function () {
     let singleCountryValue = singleCountry.value
 
     let singleCountryData = []
